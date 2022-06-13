@@ -1,0 +1,87 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: rgb(22,22,22);
+    height: 100%;
+	width: 100%; 
+}
+/* el table */
+table, th, td {
+border: 2px solid rgb(196, 196, 196);
+color:rgb(196, 196, 196);
+font-weight: 900;
+border-radius: 4px;
+padding: 5px;
+text-align: left;
+margin-top:50px;
+margin-left:20px;
+
+}
+
+/* box el edit */
+#background2{
+transform: translate(-50%,-50%);
+border-radius: 8px;
+border: 1px solid rgb(37, 37, 37);
+background-color: rgb(37, 37, 37);
+height: 920px;
+width:470px;
+background:blur(20px);
+margin-top:500px;
+margin-left:1400px;
+background-attachment: absolute;
+text-decoration: none;
+position: absolute;
+
+}
+
+
+
+
+/* title el fo2 input */
+label{  
+display: block;
+margin-top: 15px;
+margin-left: 15px;
+font-size: 25px;
+font-weight: 550;
+
+}
+/* el gwa el input */
+::placeholder{
+color: rgb(196, 196, 196);
+text-align: center;
+}
+/* input el edit w el delete */
+input{
+border: 1px solid rgba(255,255,255,0.07);
+display: flex;
+height: 40px;
+width: 430px;
+background-color: rgba(255,255,255,0.07);
+color: rgb(196, 196, 196);
+text-align: center;
+border-radius: 8px;
+margin-top: 20px;
+margin-left: 15px;
+font-size: 16px;
+font-weight: 700;
+}
+/* button el edit w el delete */
+button{
+border: 1px solid rgba(240, 156, 0, 0.947);
+text-align: center;
+margin-top: 50px;
+margin-left: 15px;
+height: 40px;
+width: 430px;
+background-color: rgba(240, 156, 0, 0.947);
+color: rgb(37, 37, 37);
+font-size: 16px;
+font-weight: 700;
+border-radius: 8px;
+cursor: pointer;
+}
+
